@@ -21,9 +21,7 @@
     "jade": "~1.9.2",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0",
-    "stylus": "^0.51.1"
-  },
-  "devDependencies": {
+    "stylus": "^0.51.1",
     "browserify": "^10.0.0",
     "browserify-shim": "^3.8.6"
   },
@@ -36,6 +34,7 @@
     "cssjson": "./app/parser/assets/cj.js"
   },
   "browserify-shim": {
-    "cssjson": "cssjson" 
-  }
+    "cssjson": "CSSJSON"
+  },
+  "devDependencies": {}
 }
